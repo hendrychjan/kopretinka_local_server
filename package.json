@@ -1,0 +1,25 @@
+{
+  "name": "kopretinka_local_server",
+  "version": "1.0.0",
+  "description": "Lokální TCP/IP server jako prostředník mezi Kopretinkou a Internetem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendrychjan/kopretinka_local_server.git"
+  },
+  "author": "Jan Hendrych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendrychjan/kopretinka_local_server/issues"
+  },
+  "homepage": "https://github.com/hendrychjan/kopretinka_local_server#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "path": "^0.12.7",
+    "serialport": "^11.0.0"
+  }
+}
